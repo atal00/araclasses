@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>A.R.A COMPUTER CLASSES</title>
+</head>
+<body>
+  <header style="position: relative;">
+
+    <div class="w3-top" class="header" id="home">
+      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015;" >
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large  w3-hover-black">A.R.A classes</a>
+        <div >
+          <a href="#course fees" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >course fees</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
+        </div>
+    
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
+         <a href="#course fees" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">course fees</a>
+         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+      </div>
+    </div>
+  </header>
+      <section >
+         <div class="hero" id="about">
+           <div class="hero-description">
+             <div class="hero-text">
+              <h1 class="hero-title">A.R.A COMPUTER CLASSES</h1>
+              <p>
+                Computer education has become the specification of modern education system and also a blessing.
+The electronic device, called computer, has changed the method of working in all kinds of professions.
+              </p>
+              <span class="w3-text-white social" style="margin-top:050px">
+                <p >Follow us on Social media</p>
+                <div class="w3-margin-top">
+             <a href="#">  <i class="fa fa-facebook-official w3-hover-opacity icons" ></i></a> 
+             <a href="#"><i class="fa fa-instagram w3-hover-opacity icons" ></i></a> 
+             </div>
+              </span>
+             </div>
+           </div>
+         </div>
+      </section>
+      <main style="padding-bottom:40px ;">
+        <h2 class="title" id="Events">Courses</h2>
+        <div class="games">
+          <div class="game-list">
+           <img src="https://aracomputerclasses.w3spaces.com/img/pgdca.jpg?bypass-cache=06898264" alt="PGDCA" style="width:100px; height: 100px;"/>
+          <h3>PGDCA</h3>
+          <p></p>
+          </div>
+          <div class="game-list">
+              <img src="https://aracomputerclasses.w3spaces.com/img/adca.jpg?bypass-cache=06982504" alt="ADCA" style="width:100px; height: 100px;"/>
+            <h3>ADCA</h3>
+            <p></p>
+          </div>
+          <div class="game-list">
+              <img src="https://aracomputerclasses.w3spaces.com/img/DCA.png?bypass-cache=06991741" alt="DCA" style="width:100px; height: 100px;"/>
+            <h3>DCA</h3>
+            <p></p>
+          </div>
+          <div class="game-list">
+              <img src="https://aracomputerclasses.w3spaces.com/img/EXCEL.jpeg?bypass-cache=07103293" alt="ADVANCE EXCEL" style="width:100px; height: 100px;"/>  
+            <h3>ADVANCE EXCEL</h3>
+             <p></p>
+          </div>
+          <div class="game-list">
+            <img src="https://aracomputerclasses.w3spaces.com/img/TALLY.png?bypass-cache=07068410" alt="ADVANCE TALLY" style="width:100px; height: 100px;"/ >
+          <h3>ADVANCE TALLY</h3>
+          <p></p>
+          </div>
+          <div class="game-list">
+              <img src="https://aracomputerclasses.w3spaces.com/img/DATA.jpg?bypass-cache=07252643" alt="DATA ENTRY" style="width:100px; height: 100px;"/>
+            <h3>DATA ENTRY</h3>
+            <p></p>
+          </div>
+          
+        
+        </div>
+        <div class="store" id="shop">
+         <h2 class="title">FEES FOR COURSES</h2>
+        
+        <div class="game-store">
+
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://aracomputerclasses.w3spaces.com/img/pgdca.jpg?bypass-cache=06898264"/>
+            </div>
+            <div class="store-text-description">
+             <h4>PGDCA</h4>
+             <span> 1 YEAR COURSE </span>
+             <span>Rs-6500</span>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://aracomputerclasses.w3spaces.com/img/adca.jpg?bypass-cache=06982504"/>
+            </div>
+            <div class="store-text-description">
+              <h4>ADCA</h4>
+              <span> 1 YEAR COURSE </span>
+              <span>Rs-6500</span>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://aracomputerclasses.w3spaces.com/img/DCA.png?bypass-cache=06991741"/>
+            </div>
+            <div class="store-text-description">
+              <h4>DCA</h4>
+              <span> 6 MONTHS COURSE </span>
+              <span>Rs-5500</span>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://aracomputerclasses.w3spaces.com/img/TALLY.png?bypass-cache=07068410"/>
+            </div>
+            <div class="store-text-description">
+              <h4>ADVANCE TALLY</h4>
+              <span> 3 MONTHS COURSE </span>
+              <span>Rs-3000</span>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://aracomputerclasses.w3spaces.com/img/EXCEL.jpeg?bypass-cache=07103293"/>
+            </div>
+            <div class="store-text-description">
+              <h4>ADVANCE EXCEL</h4>
+              <span> 2 MONTHS COURSE </span>
+              <span>Rs- 2500</span>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://aracomputerclasses.w3spaces.com/img/DATA.jpg?bypass-cache=07252643"/>
+            </div>
+            <div class="store-text-description">
+              <h4>DATA ENTRY</h4>
+              <span> LESS THEN ONE MONTHS COURSE </span>
+              <span>Rs- 1500</span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <h2 class="title">Reach out to us</h2>
+      <div class="contact" id="contact" style="padding-bottom: 10px !important;">
+      <div class="contact-list contact-address"  >
+        <h5><span><i class="fa fa-map-marker w3-xlarge w3-text-light-grey"></i></span>Address</h5>
+        <p> ward no 1,Devi nagar, Banuchhapar </p>
+        <p> Sant Kabir Road, Bettiah </p>
+        <p> 845438 </p>
+      </div>
+      <div class="contact-list" >
+        <h5><span><i class="fa fa-phone w3-xlarge w3-text-light-grey"></i></span>Phone</h5>
+        <p>  82104-66785 </p>
+        <p>  62061-95243 </p>
+        <P>  98354-70657 </P>
+      </div>
+
+      </div>
+    </div>
+        <h3 class="title">ENQUIRY FORM</h3>
+      <div class="eneuiry form" id="enquiry form" style="padding-bottom: 10px !important;">
+      <div class="enquiry form"  >
+        <h5>FORM TO FILL UP FOR ANY ENQUIRY {BY CLICKING ON GOOGLE ICON}</h5>
+         <span class="w3-text-blue social" style="margin-top:050px">
+                <div class="w3-margin-top"> 
+         <a href="https://forms.gle/ukRjV2ZSweNTHkB47">  <i class="fa fa-google w3-hover-opacity icons" ></i></a>
+      </div>
+      </div>
+
+      </main>
+      <div class="w3-padding w3-center" style="background: #FFF4A3;padding: 10px 0px !important; color:#282A35; ">
+        <div style="display: flex; justify-content: center;align-items: center; flex-wrap: wrap;">
+          <p style="margin: 10px !important ">This website was made with A.R.A COMPUTER CLASSES.</p>
+      </div>
+      
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</body>
+</html>
